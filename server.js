@@ -9,7 +9,7 @@ const ENV = process.env.NODE_ENV || "development";
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Hello from Dev branch!",
+    message: "Hello from Test branch!",
     environment: ENV,
     timestamp: new Date().toISOString(),
   });
